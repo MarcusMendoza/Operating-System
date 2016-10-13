@@ -7,17 +7,29 @@ function App(n,m,s){
 
     //Declare the instance function open here.
     this.open = function(){
-      this.state=applist[]
+      this.state=applist["active"]
+
 
 
 
     };
     //Declare the instance function sleep here.
-
+this.sleep=function(){
+if(this.state=applist["active"]){
+  this.memory=this.memory/2
+  this.state=applist["sleep"];
+   }
+}
 
 
     //Declare the instance function active here.
+this.active=function(){
+if(this.active=applist["sleep"]){
+  
+}
 
+
+}
 
 
     //Declare the instance function close here.
